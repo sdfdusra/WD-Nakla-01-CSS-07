@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'naklawebfonts';
+    src: url('../fonts/bloodlust-webfont.woff2') format('woff2'),
+         url('../fonts/bloodlust-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url('../images/hororo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.box1{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    /* opacity: 0.39;
+    background-color: black; */
+    background-color: #414143;
+    background-color:rgba(0, 0, 0, 0.69);
+}
+
+.box1 h1{
+    color: red;
+    /* word-spacing: 15px; */
+    letter-spacing: 1px;
+    font-family: 'naklawebfonts';
+    font-size: 70px;
+    margin: 0px 0px 15px;
+} 
+.box1 i{
+    color: yellow;
+    font-size: 50px;
+}
+.box1 .fa-map-marker-alt{
+    color: red;
+}
+
+.box2{
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+.mainNav{
+    padding: 10px;
+    width: 600px;
+    margin: 0px auto;
+    background-color: gray
+}
+.mainNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+.mainNav li a{
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.mainNav li a:hover{
+    background-color: darkgray;
+    text-decoration: none;    
+}
